@@ -11,7 +11,7 @@ import {
   Row,
   Col,
   Progress
-} from "reactstrap";q
+} from "reactstrap";
 
 // core components
 import Footer from "components/Footer/Footer.js";
