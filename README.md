@@ -1,11 +1,11 @@
-<h1 align="center">Collage-Space📚</h1>
+<h1 >Collage-Space📚</h1>
 
 - College Space  is a website provides full base line material to students for their study. 
 
 - It helps you to grow your knowledge with our perfect given materials.
 
 
-## Features:
+## ◉ Features:
 
 - Download Material
 - Download Projects 
@@ -13,13 +13,19 @@
 
 
 
-## Tech-stack used:
+
+## ◉ Tech-stack used:
 
 - ReactJS
 - Firebase
 
+## ◉ Download the repository in your device and open terminal In your IDE
 
-## Quik Look:
+<li><h4>To Install All Dependecies & To Run The Project</h4></li>
+</ul><p ><code style="margin-center:40px"  >npm i</code></p><ul>
+</ul><p><code style="margin-left:200px">npm start</code></p></ul>
+
+## ◉ Screens:
 #### 2) Home Page
 ![Screenshot 2023-04-02 at 8 37 145 PM](https://user-images.githubusercontent.com/115214615/237048262-e089c562-e650-49f2-832f-dacfbdcba93e.png)
 
