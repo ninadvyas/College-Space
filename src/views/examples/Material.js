@@ -10,7 +10,6 @@ import {
   Container,
   Row,
   Col,
-  Progress
 } from "reactstrap";
 
 // core components

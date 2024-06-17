@@ -27,7 +27,7 @@ export default function Computer() {
                 src={require("assets/img/pro1.png")}
               />
             <a href="https://github.com/NinadVyas/WeatherApp" 
-                target="_blank">
+                target="_blank" rel="project">
             <Button
               color="info" >
               Github
@@ -42,7 +42,7 @@ export default function Computer() {
                 src={require("assets/img/pro2.png")}
               />
             <a href="https://github.com/NinadVyas/NotesWeb" 
-                target="_blank"  tag={Link} to="">
+                target="_blank"  tag={Link} rel="project">
             <Button
               color="info" >
               Github
@@ -56,7 +56,7 @@ export default function Computer() {
                 src={require("assets/img/pro3.png")}
               />
             <a href="https://github.com/NinadVyas/quizweb" 
-                target="_blank"  tag={Link} to="">
+                target="_blank"  tag={Link} rel="project">
             <Button
               color="info" >
               Github

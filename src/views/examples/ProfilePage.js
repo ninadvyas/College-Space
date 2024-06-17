@@ -34,11 +34,11 @@ export default function ProfilePage() {
           <IndexNavbar/>
         <div  style={{ marginTop : '80px'}}>
           <img
-            alt="..."
+            alt="dots"
             className="dots"
             src={require("assets/img/dots.png")}/>
           <img
-            alt="..."
+            alt="dots"
             className="path"/>
             <Container className="align-items-center">
             <Row align='center' >

@@ -46,11 +46,7 @@ export default function IndexNavbar() {
   const onCollapseExited = () => {
     setCollapseOut("");
   };
-  const scrollToDownload = () => {
-    document
-      .getElementById("download-section")
-      .scrollIntoView({ behavior: "smooth" });
-  };
+ 
   return (
     <Navbar className={"fixed-top " + color} color-on-scroll="100" expand="lg">
       <Container>
@@ -112,6 +108,7 @@ export default function IndexNavbar() {
           <NavItem className="p-0">
               <NavLink
                 target="_blank"
+                rel="nav"
                 tag={Link} to="/profile-page">
                 <i className="tim-icons icon-double-right"/>About
               </NavLink>      
@@ -120,6 +117,7 @@ export default function IndexNavbar() {
               <NavItem className="p-0">
               <NavLink
                 target="_blank"
+                rel="nav"
                 tag={Link} to="/Contact">
                 <i className="tim-icons icon-double-right"/>Contact
               </NavLink>      
@@ -127,6 +125,7 @@ export default function IndexNavbar() {
               <NavItem className="p-0">
               <NavLink
                 target="_blank"
+                rel="nav"
                 tag={Link} to="/register-page">
                 <i className="tim-icons icon-double-right"/>Community
               </NavLink>
@@ -134,7 +133,7 @@ export default function IndexNavbar() {
             <NavItem className="p-2"  >
 
               <a href="https://discord.gg/T9VK4gPsjW" 
-                target="_blank"  tag={Link} to="">
+                target="_blank" rel="nav" tag={Link} to="">
                 <i  className="tim-icons icon-double-right"/>Discord
               </a>
 
