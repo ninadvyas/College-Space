@@ -50,11 +50,6 @@ export default function Footer() {
                   About Us
                 </NavLink>
               </NavItem>
-              <NavItem>
-                <NavLink to="/profile-page" tag={Link}>
-                  Blog
-                </NavLink>
-              </NavItem>
             </Nav>
           </Col>
           <Col md="3">
@@ -63,11 +58,11 @@ export default function Footer() {
               <Button
                 className="btn-icon btn-neutral btn-round btn-simple"
                 color="default"
-                href=""
+                href="https://discord.com/invite/T9VK4gPsjW"
                 id="tooltip622135962"
                 target="_blank"
               >
-                <i className="fab fa-twitter" />
+                <i className="fab fa-discord" />
               </Button>
               <UncontrolledTooltip delay={0} target="tooltip622135962">
                 Follow us
@@ -75,11 +70,11 @@ export default function Footer() {
               <Button
                 className="btn-icon btn-neutral btn-round btn-simple"
                 color="default"
-                href=""
+                href="https://github.com/ninadvyas/College-Space"
                 id="tooltip230450801"
                 target="_blank"
               >
-                <i className="fab fa-facebook-square" />
+                <i className="fab fa-github" />
               </Button>
               <UncontrolledTooltip delay={0} target="tooltip230450801">
                 Like us
@@ -87,7 +82,7 @@ export default function Footer() {
               <Button
                 className="btn-icon btn-neutral btn-round btn-simple"
                 color="default"
-                href=""
+                href="/register-page"
                 id="tooltip318450378"
                 target="_blank"
               >

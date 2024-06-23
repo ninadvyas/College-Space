@@ -107,7 +107,6 @@ export default function IndexNavbar() {
               </NavItem> 
           <NavItem className="p-0">
               <NavLink
-                target="_blank"
                 rel="nav"
                 tag={Link} to="/profile-page">
                 <i className="tim-icons icon-double-right"/>About
@@ -116,7 +115,6 @@ export default function IndexNavbar() {
              
               <NavItem className="p-0">
               <NavLink
-                target="_blank"
                 rel="nav"
                 tag={Link} to="/Contact">
                 <i className="tim-icons icon-double-right"/>Contact
@@ -124,7 +122,6 @@ export default function IndexNavbar() {
               </NavItem> 
               <NavItem className="p-0">
               <NavLink
-                target="_blank"
                 rel="nav"
                 tag={Link} to="/register-page">
                 <i className="tim-icons icon-double-right"/>Community
